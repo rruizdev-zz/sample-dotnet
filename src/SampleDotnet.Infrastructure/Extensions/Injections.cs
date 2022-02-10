@@ -9,6 +9,7 @@ namespace SampleDotnet.Infrastructure.Extensions
         public static IServiceCollection AddRepositories(this IServiceCollection services)
         {
             services.AddScoped<ICountryRepository, CountryRepository>();
+            services.AddScoped<ISiteRepository, SiteRepository>();
 
             return services;
         }

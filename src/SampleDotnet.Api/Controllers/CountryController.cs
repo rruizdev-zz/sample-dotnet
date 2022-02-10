@@ -7,7 +7,7 @@ namespace SampleDotnet.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class CountryController : Controller
+    public class CountryController : ControllerBase
     {
         private readonly IMediator _mediator;
 

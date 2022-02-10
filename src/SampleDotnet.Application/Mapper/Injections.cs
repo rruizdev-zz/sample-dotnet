@@ -9,6 +9,7 @@ namespace SampleDotnet.Application.Mapper
             services.AddAutoMapper(c =>
             {
                 c.AddProfile<CountryProfile>();
+                c.AddProfile<SiteProfile>();
             });
 
             return services;
