@@ -1,8 +1,10 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using SampleDotnet.Application.Mapper;
+using System.Diagnostics.CodeAnalysis;
 
 namespace SampleDotnet.Application.Extensions
 {
+    [ExcludeFromCodeCoverage]
     public static class Injections
     {
         public static IServiceCollection AddMappers(this IServiceCollection services)
