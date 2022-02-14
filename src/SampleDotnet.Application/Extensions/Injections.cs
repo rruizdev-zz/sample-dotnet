@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using SampleDotnet.Application.Mapper;
 
-namespace SampleDotnet.Application.Mapper
+namespace SampleDotnet.Application.Extensions
 {
     public static class Injections
     {
@@ -10,6 +11,7 @@ namespace SampleDotnet.Application.Mapper
             {
                 c.AddProfile<CountryProfile>();
                 c.AddProfile<SiteProfile>();
+                c.AddProfile<ItemProfile>();
             });
 
             return services;

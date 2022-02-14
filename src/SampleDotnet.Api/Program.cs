@@ -1,5 +1,5 @@
 using MediatR;
-using SampleDotnet.Application.Mapper;
+using SampleDotnet.Application.Extensions;
 using SampleDotnet.Infrastructure.Extensions;
 using System.Reflection;
 

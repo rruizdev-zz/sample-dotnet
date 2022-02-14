@@ -10,6 +10,7 @@ namespace SampleDotnet.Infrastructure.Extensions
         {
             services.AddScoped<ICountryRepository, CountryRepository>();
             services.AddScoped<ISiteRepository, SiteRepository>();
+            services.AddScoped<IItemRepository, ItemRepository>();
 
             return services;
         }
